@@ -13,7 +13,6 @@ This repository contains my personal `vimrc` configuration file, optimized for a
 - **Auto-Indentation** – Ensures consistent code formatting.
 - **Search Enhancements** – Smart case search and incremental highlighting.
 - **Clipboard Integration** – Seamless interaction with system clipboard.
-- **Performance Optimizations** – Reduces startup time and enhances responsiveness.
 
 ## Installation
 
