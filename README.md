@@ -21,3 +21,10 @@ Clone this repository and place the `vimrc` file in your home directory:
 ```sh
 git clone https://github.com/Islc12/vimrc.git
 cp vimrc/.vimrc ~/.vimrc
+```
+
+Or for Windows
+```powershell
+git clone https://github.com/Islc12/vimrc.git
+cp vimrc/.vimrc ~/_vimrc
+```
