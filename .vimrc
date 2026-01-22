@@ -34,15 +34,24 @@ colorscheme sublimemonokai
 
 " Custom Mapping for C programming
 " Compile and run program
-nnoremap <F5> :w<CR>:!gcc % -o %:r && ./%:r; echo "Press ENTER to go back into vim"; read<CR> 
+" Use this one for Linux OS
+nnoremap <F5> :w<CR>:!gcc % -o %:r && ./%:r; echo "Press ENTER to go back into vim"; read<CR>
+" Use this one for Windows OS
+" nnoremap <F5> :w<CR>:!gcc -o %:r.exe % && %:r.exe & pause<CR>
 
 " Custom Mapping for C++ programming
 " Compile and run program
+" Use this one for Linux OS
 nnoremap <F4> :w<CR>:!g++ -o %:r % && ./%:r; echo "Press ENTER to go back into vim"; read<CR>
+" Use this one for Windows OS
+" nnoremap <F4> :w<CR>:!g++ -o %:r.exe % && %:r.exe & pause<CR>
 
 " Custom Mapping for Java Programming
 " Compile and run program
+" Use this one for Linux OS
 nnoremap <F6> :w<CR>:!javac % && java %:r; echo "Press ENTER to go back into vim"; read<CR>
+" Use this one for Windows OS
+" nnoremap <F6> :w<CR>:!javac "%"<CR>:!java "%:t:r" & pause<CR>
 
 " Adding pathogen to vim
 execute pathogen#infect()
