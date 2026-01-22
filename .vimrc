@@ -67,7 +67,7 @@ let g:ale_python_flake8_executable = 'flake8'
 let g:ale_python_pylint_executable = 'pylint'
 
 " vim-commentary functions
-" Correct vim-commentary to use # instead of /* %s */ for python and shell script comments
-au FileType python,sh setlocal commentstring=#\ %s
+" Correct vim-commentary to use # instead of /* %s */ for python, shell, and powershell script comments
+au FileType python,sh,ps1 setlocal commentstring=#\ %s
 " Set vim-commentary to use " for dealing with vim scripts rather than /* */
 au FileType vim setlocal commentstring=\"\ %s
