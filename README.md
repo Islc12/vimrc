@@ -26,5 +26,5 @@ cp vimrc/.vimrc ~/.vimrc
 Or for Windows
 ```powershell
 git clone https://github.com/Islc12/vimrc.git
-cp vimrc/.vimrc ~/_vimrc
+cp vimrc\.vimrc ~\_vimrc
 ```
