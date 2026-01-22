@@ -1,18 +1,38 @@
 Author: Richard Smith  
 Date: December 2024  
-Contact: richrsmith@proton.me  
+Contact: richrsmith@proton.me
+
+------------------------------------------------------------------------
 
 # Vim Configuration (`vimrc`)
 
 This repository contains my personal `vimrc` configuration file, optimized for an efficient and streamlined Vim experience. It includes custom key mappings, syntax highlighting improvements, and various usability enhancements.
 
-## Features
+------------------------------------------------------------------------
 
-- **Custom Keybindings** – Improves navigation, window management, and editing efficiency.
-- **Syntax Highlighting** – Enhanced readability for various programming languages.
-- **Auto-Indentation** – Ensures consistent code formatting.
-- **Search Enhancements** – Smart case search and incremental highlighting.
-- **Clipboard Integration** – Seamless interaction with system clipboard.
+## Featured Plugins
+
+This vimrc file uses a few of my favorite plugins that help with everyday workflow, these plugins can be found on github and I will link them here. I did not write any of these plugins. Refer to the respective repository's documentation for installation, management, troubleshooting, etc.
+
+### Colorscheme
+https://github.com/ErichDonGubler/vim-sublime-monokai
+
+### Pathogen Plugin Manager
+https://github.com/tpope/vim-pathogen
+
+### Vim-Commentary
+https://github.com/tpope/vim-commentary
+
+### Vim-Airline
+https://github.com/vim-airline/vim-airline
+
+### Vim-ALE
+https://github.com/dmerejkowsky/vim-ale
+
+### Nerdtree
+https://github.com/preservim/nerdtree
+
+------------------------------------------------------------------------
 
 ## Installation
 
